@@ -3,9 +3,7 @@
     "stashes": [
       "ESSZefozpZYVLbLF1vaGtabthQYg8PVXiTytVm6YiiwAnee",
       "DKKax6uZkiNPfd2ATd8cJhyi3c1KZD24VDdoWG9CfTmwgSp",
-      "H4La9AvRKWu7Z4EcDbiVTTvY1eVj9L3SN32ocFNrjXAYNUw",
-      "JBZ5HCWSW88FQhPoCyYJEwobqPgENBrhMLyx1uAN1XBCDz7",
-      "EAmaxi9v6LeBm4dQtq1vrjnMigTRMUD1dTGUH1g9XoUx3JG"
+      "H4La9AvRKWu7Z4EcDbiVTTvY1eVj9L3SN32ocFNrjXAYNUw"
     ],
     "endpoint": "wss://kusama.dotters.network"
   },
@@ -15,5 +13,12 @@
       "1ArdZJtNUrZsfidfn1t69xHaSWwzf6PQNdLEUpcnVmbkZc5"
     ],
     "endpoint": "wss://polkadot.dotters.network"
+  },
+  "paseo": {
+    "stashes": [
+      "14cQdSZy4FdLXa36dgVd6BWt41Fd1j6pkf8hPXFsWm1f9orX",
+      "15HfgrULVrnXuRkEoscWrUiFAk3xjUqpfPPWJeXreiNJmdm6"
+    ],
+    "endpoint": "wss://paseo.dotters.network"
   }
 }
