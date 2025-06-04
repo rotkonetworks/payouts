@@ -1,0 +1,23 @@
+{
+  "kusama": {
+    "paypig": [
+      "DmQZSncAVN7Pjc3wkTBi8XusQRd3VUEiaPXYu7KtZvQDNmq",
+      "DmQZSncAVN7Pjc3wkTBi8XusQRd3VUEiaPXYu7KtZvQDNmq"
+    ],
+    "endpoint": "wss://kusama.dotters.network"
+  },
+  "polkadot": {
+    "paypig": [
+      "12C63ThoPucf5co88gh8xL14aS92w8DCLhHGKXpixrjReaqS",
+      "12C63ThoPucf5co88gh8xL14aS92w8DCLhHGKXpixrjReaqS"
+    ],
+    "endpoint": "wss://polkadot.dotters.network"
+  },
+  "paseo": {
+    "paypig": [
+      "12C63ThoPucf5co88gh8xL14aS92w8DCLhHGKXpixrjReaqS",
+      "12C63ThoPucf5co88gh8xL14aS92w8DCLhHGKXpixrjReaqS"
+    ],
+    "endpoint": "wss://paseo.dotters.network"
+  }
+}

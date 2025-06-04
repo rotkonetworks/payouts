@@ -9,7 +9,6 @@
   },
   "polkadot": {
     "stashes": [
-      "1D51dxpuGv1mWxstx7ERWyEWieLHSeQ8NBVX7VxkxT5PuKg",
       "1ArdZJtNUrZsfidfn1t69xHaSWwzf6PQNdLEUpcnVmbkZc5"
     ],
     "endpoint": "wss://polkadot.dotters.network"
