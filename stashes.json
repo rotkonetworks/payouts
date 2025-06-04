@@ -1,0 +1,19 @@
+{
+  "kusama": {
+    "stashes": [
+      "ESSZefozpZYVLbLF1vaGtabthQYg8PVXiTytVm6YiiwAnee",
+      "DKKax6uZkiNPfd2ATd8cJhyi3c1KZD24VDdoWG9CfTmwgSp",
+      "H4La9AvRKWu7Z4EcDbiVTTvY1eVj9L3SN32ocFNrjXAYNUw",
+      "JBZ5HCWSW88FQhPoCyYJEwobqPgENBrhMLyx1uAN1XBCDz7",
+      "EAmaxi9v6LeBm4dQtq1vrjnMigTRMUD1dTGUH1g9XoUx3JG"
+    ],
+    "endpoint": "wss://kusama.dotters.network"
+  },
+  "polkadot": {
+    "stashes": [
+      "1D51dxpuGv1mWxstx7ERWyEWieLHSeQ8NBVX7VxkxT5PuKg",
+      "1ArdZJtNUrZsfidfn1t69xHaSWwzf6PQNdLEUpcnVmbkZc5"
+    ],
+    "endpoint": "wss://polkadot.dotters.network"
+  }
+}

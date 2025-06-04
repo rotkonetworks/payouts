@@ -1,0 +1,22 @@
+{
+  "name": "dedot-validator-payout",
+  "version": "1.0.0",
+  "description": "CLI tool to monitor and batch validator payout transactions",
+  "main": "payout.js",
+  "type": "module",
+  "bin": {
+    "payout": "./payout.js"
+  },
+  "scripts": {
+    "start": "node payout.js"
+  },
+  "dependencies": {
+    "@polkadot/keyring": "^13.5.1",
+    "commander": "^14.0.0",
+    "dedot": "^0.12.0",
+    "redis": "^4.6.0"
+  },
+  "devDependencies": {
+    "@dedot/chaintypes": "^0.111.0"
+  }
+}
