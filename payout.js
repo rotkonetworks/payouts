@@ -11,9 +11,10 @@ import { cryptoWaitReady } from '@polkadot/util-crypto';
 
 // Constants
 const ENDPOINTS = {
-  polkadot: 'wss://rpc.polkadot.io',
-  kusama: 'wss://kusama-rpc.polkadot.io',
-  westend: 'wss://westend-rpc.polkadot.io',
+  polkadot: process.env.RPC_POLKADOT || 'wss://polkadot.rotko.net',
+  kusama: process.env.RPC_KUSAMA || 'wss://kusama.rotko.net',
+  paseo: process.env.RPC_PASEO || 'wss://paseo.rotko.net',
+  westend: process.env.RPC_WESTEND || 'wss://westend-rpc.polkadot.io',
 };
 
 const DEFAULT_WORKERS = Math.min(cpus().length, 4);

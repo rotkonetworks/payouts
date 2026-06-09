@@ -4,9 +4,9 @@ import { DedotClient, WsProvider } from 'dedot';
 import { createClient } from 'redis';
 
 const ENDPOINTS = {
-  polkadot: 'wss://polkadot.dotters.network',
-  kusama: 'wss://kusama.dotters.network',
-  paseo: 'wss://paseo.dotters.network',
+  polkadot: process.env.RPC_POLKADOT || 'wss://polkadot.rotko.net',
+  kusama: process.env.RPC_KUSAMA || 'wss://kusama.rotko.net',
+  paseo: process.env.RPC_PASEO || 'wss://paseo.rotko.net',
 };
 
 async function checkHealth() {
