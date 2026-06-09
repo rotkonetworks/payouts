@@ -3,10 +3,11 @@
 import { DedotClient, WsProvider } from 'dedot';
 import { createClient } from 'redis';
 
+// Staking moved to Asset Hub via AHM — point at AH, not relay.
 const ENDPOINTS = {
-  polkadot: process.env.RPC_POLKADOT || 'wss://polkadot.rotko.net',
-  kusama: process.env.RPC_KUSAMA || 'wss://kusama.rotko.net',
-  paseo: process.env.RPC_PASEO || 'wss://paseo.rotko.net',
+  polkadot: process.env.RPC_POLKADOT || 'wss://asset-hub-polkadot.rotko.net',
+  kusama: process.env.RPC_KUSAMA || 'wss://asset-hub-kusama.rotko.net',
+  paseo: process.env.RPC_PASEO || 'wss://asset-hub-paseo.rotko.net',
 };
 
 async function checkHealth() {

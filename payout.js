@@ -10,11 +10,13 @@ import { Keyring } from '@polkadot/keyring';
 import { cryptoWaitReady } from '@polkadot/util-crypto';
 
 // Constants
+// Staking moved to Asset Hub via AHM — these must point at the AH chain,
+// not the relay. The relay's staking pallet is gutted and returns undefined.
 const ENDPOINTS = {
-  polkadot: process.env.RPC_POLKADOT || 'wss://polkadot.rotko.net',
-  kusama: process.env.RPC_KUSAMA || 'wss://kusama.rotko.net',
-  paseo: process.env.RPC_PASEO || 'wss://paseo.rotko.net',
-  westend: process.env.RPC_WESTEND || 'wss://westend-rpc.polkadot.io',
+  polkadot: process.env.RPC_POLKADOT || 'wss://asset-hub-polkadot.rotko.net',
+  kusama: process.env.RPC_KUSAMA || 'wss://asset-hub-kusama.rotko.net',
+  paseo: process.env.RPC_PASEO || 'wss://asset-hub-paseo.rotko.net',
+  westend: process.env.RPC_WESTEND || 'wss://asset-hub-westend.rotko.net',
 };
 
 const DEFAULT_WORKERS = Math.min(cpus().length, 4);
